@@ -1,0 +1,19 @@
+{
+  "name": "intrusion-detection-backend",
+  "version": "1.0.0",
+  "description": "MQTT-to-Firebase bridge with push notification alerting for the ESP32 intrusion detection system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.10.1",
+    "firebase-admin": "^12.5.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

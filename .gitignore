@@ -1,0 +1,16 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# Env / secrets
+.env
+backend/config/serviceAccountKey.json
+
+# PlatformIO
+firmware/.pio/
+firmware/.vscode/
+firmware/include/config.h.local
+
+# OS
+.DS_Store
+Thumbs.db
